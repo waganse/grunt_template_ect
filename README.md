@@ -24,7 +24,7 @@ template-ect/
 * Files begin with `_` aren't compiled by themselves. They work as partials for import. - e.g. `_scaffolding.scss`
 
 ## Getting Started
-This project uses [Grunt](http://gruntjs.com/) as task runner, and [Bower](http://bower.io/) as component manager.  
+This project uses [Grunt](http://gruntjs.com/) as task runner, and [Bower](http://bower.io/) as component manager.
 You have to set them up on your PC, before start coding.
 
 ### 1. Install Node.js
@@ -49,18 +49,18 @@ $ npm install && bower install
 After that, you can use `grunt` and `bower` commands in the project root directory.
 
 ## Build Tasks
-* `grunt`  
+* `grunt`
   Distribute files after testing.
 
-* `grunt serve`  
+* `grunt serve`
   Start localhost server with BrowserSync.
   Type [Cntl + C] to exit.
 
-* `grunt serve:dist`  
-  Start localhost server using distributed files.  
+* `grunt serve:dist`
+  Start localhost server using distributed files.
   This task doesn't contain the build task. Run `grunt` at first as needed.
 
-* `grunt test`  
+* `grunt test`
   Validate source codes and run unit testing.
 
 See "grunt/aliases.js" for more details or customizing the tasks.
@@ -70,10 +70,10 @@ See the [Bower document](http://bower.io/#usage) for details.
 
 ### Installation
 
-* `bower install --save <package>`  
+* `bower install --save <package>`
   Install a package.
 
-* `bower install --save <package>#<version>`  
+* `bower install --save <package>#<version>`
   Install a specific version of package.
 
 Installed library will be included in HTML automatically using [grunt-wiredep](https://github.com/stephenplusplus/grunt-wiredep).
@@ -81,7 +81,3 @@ You don't need to update the reference manually.
 
 ### Search Packages
 [Bower - Search](http://bower.io/search/)
-
-----
-
-This project is created on 2015-06-10 using [generator-rff](https://github.com/rakuten-frontend/generator-rff) v0.7.0.
