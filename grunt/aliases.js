@@ -59,8 +59,7 @@ module.exports = {
       'clean:preview',
       'copy:preview',
       'relativeRoot',
-      'ftp-deploy',
-      'kakunin-deploy'
+      'ftp-deploy'
     ]);
   },
 
