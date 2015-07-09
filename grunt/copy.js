@@ -68,6 +68,17 @@ module.exports = {
           'fonts/*.{eot,woff,ttf,svg}',
           '!<%= path.distIgnore %>'
         ]
+      },
+      {
+        expand: true,
+        cwd: 'bower_components',
+        dest: '<%= path.preview %>/bower_components',
+        src: [
+          '**/**?*.js',
+          'css/*.css',
+          'img/*.png',
+          '!<%= path.distIgnore %>'
+        ]
       }
     ]
   }
