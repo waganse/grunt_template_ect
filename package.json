@@ -29,7 +29,6 @@
     "grunt-ftp-deploy": "^0.1.9",
     "grunt-html-validation": "^0.1.17",
     "grunt-jscs": "^1.0.0",
-    "grunt-kakunin-deploy": "git+ssh://git@git.rakuten-it.com:7999/~shinsuke.a.yamada/grunt-kakunin-deploy.git",
     "grunt-modernizr": "^0.6.0",
     "grunt-newer": "^1.1.0",
     "grunt-relative-root": "^0.2.2",
